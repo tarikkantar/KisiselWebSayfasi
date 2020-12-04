@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta http-equiv="content-type" content="text/html" charset="UTF-8"/>
+    <meta http-equiv="content-language" content="tr">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kişisel Web Sayfası</title>
+    <meta name="keywords" content="Python,Java,JavaScript" />
+    <meta name="description" content="Tarık Kantar | Kişisel Web Sayfası"/>
+    <meta name="author" content="Tarık Kantar">
+    <meta name="generator" content="VS Code">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header-navbar">
+      <div class="div-container">
+        <nav id="navbar">
+          <h1 class="navbar-logo-header">Tarık Kantar</h1>
+          <ul>
+            <li><a href="#home">Ana Sayfa</a></li>
+            <li><a href="#training">Gelişim</a></li>
+            <li><a href="#info">Hakkında</a></li>
+            <li><a href="#contact">İletişim</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="home">
+      <img src="images/profilPhoto.jpg" alt="Mustafa Murat Coşkun"/>
+
+      <div class="name text-center">
+        <h2 class="heading-big">Tarık Kantar</h2>
+        <p>Bilgisayar Mühendisi</p>
+      </div>
+
+      <a href="#contact" class="btn btn-primary">İletişim</a>
+    </section>
+
+    <section id="training" class="header-navbar">
+      <h3 class="text-center heading-medium">Gelişim</h3>
+      <div class="items">
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Eğitim</h3>
+          <p>
+              Eskişehir Osmangazi Üniversitesi
+          </p>
+        </article>
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Deneyim</h3>
+          <p>
+              Dsi Genel Müdürlüğü
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="info">
+      <h3 class="text-center heading-medium">Hakkında</h3>
+
+      <div class="div-container">
+        <div class="info">
+          <div class="info2">
+            <div class="course-image">
+              <img src="images/1.PNG" alt="Python" />
+            </div>
+          </div> 
+      </div>
+    </section>
+
+    <footer id="contact" class="header-navbar">
+      <div class="contact-form">
+        <form>
+          <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+
+          <div class="form-group">
+            <label for="name">İsim</label>
+            <input
+              type="text"
+              class="form-control"
+              name="name"
+              id="name"
+              placeholder="İsim"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="text"
+              class="form-control"
+              name="email"
+              id="email"
+              placeholder="E-mail"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Mesaj</label>
+            <textarea
+              name="message"
+              id="message"
+              class="form-control"
+              rows="10"
+              placeholder="Mesajınızı yazınız"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-block">Gönder</button>
+        </form>
+        <ul>
+          <li>
+            <a href="https://twitter.com/tarikkkantar"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/tarik.kantar/"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
